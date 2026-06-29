@@ -2,6 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R_Programming-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 This repository showcases a comprehensive retail and supply chain data analysis of the Global Superstore dataset. The project demonstrates advanced data manipulation, financial analysis, and optimization techniques implemented in both **R** and **Python**.
 
