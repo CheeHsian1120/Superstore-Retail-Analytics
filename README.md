@@ -74,5 +74,26 @@ Going beyond traditional internal metrics, this project features a **Macroeconom
 └── README.md                            # Project documentation
 ```
 
+## 🕹️ How to Run the Interactive Dashboard Locally
+
+### Prerequisites
+Ensure you have **R** and **RStudio** installed.
+
+### Step 1: Clone the Repository
+```bash
+git clone [https://github.com/CheeHsian1120/Superstore-Retail-Analytics.git](https://github.com/CheeHsian1120/Superstore-Retail-Analytics.git)
+cd Superstore-Retail-Analytics/r_pipeline
+```
+### Step 2: Install Required R Libraries
+Open RStudio or your terminal and run:
+```r
+install.packages(c("shiny", "tidyverse", "lubridate", "scales", "shinyscreenshot", "readxl", "plotly"))
+```
+### Step 3: Launch the Application
+Make sure your working directory contains the underlying dataset (`clean_data.xlsx`), then execute:
+```r
+shiny::runApp("app.R")
+```
+
 ## 👨‍💻 Author
 **Tay Chee Hsian** 
